@@ -1,0 +1,14 @@
+site:
+  title: "Ignacio Guerendiain"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/cv.js"
+      api: "build/libs/cv.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/cv.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
