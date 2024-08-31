@@ -54,7 +54,7 @@ fun CV(cvData: MainCV, screenWidth: Int){
             ?.lowercase()
             ?.let { parsedLanguage ->
                 if (cvData.languages.find { it.code == parsedLanguage } != null) parsedLanguage
-                else DEFAULT_LANGUAGE
+                else cvData.defaultLanguage
             }
             ?:DEFAULT_LANGUAGE
     )}
