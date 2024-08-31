@@ -23,7 +23,6 @@ import nacholab.cv.i18n.i18n
 import nacholab.cv.model.WorkExperienceDataItem
 import nacholab.cv.theme.CVTheme
 import nacholab.cv.tools.toMonth
-import nacholab.cv.tools.toYear
 import org.jetbrains.compose.web.css.px
 
 @Composable
@@ -72,7 +71,7 @@ fun WorkExperience(
                 }
                 if (window.innerWidth > RESPONSIVE_WIDTH_THRESHOLD) {
                     SpanText(
-                        text = " // ${if (job.to==null) "${"since".i18n(language)} " else ""}${job.from.toMonth(language)} ${job.from.toYear()}",
+                        text = " // ${if (job.to==null) "${"since".i18n(language)} " else ""}${job.from[0].toMonth(language)} ${job.from[1]}",
                         modifier = Modifier
                             .fontSize(14.px)
                             .color(CVTheme.colors.secondaryVariant)
@@ -81,7 +80,7 @@ fun WorkExperience(
 
                     job.to?.let {
                         SpanText(
-                            text = " ~ ${job.to.toMonth(language)} ${job.to.toYear()}",
+                            text = " ~ ${job.to[0].toMonth(language)} ${job.to[1]}",
                             modifier = Modifier
                                 .fontSize(14.px)
                                 .color(CVTheme.colors.secondaryVariant)
@@ -97,7 +96,7 @@ fun WorkExperience(
                         .padding(left = 20.px, top = 4.px, bottom = 8.px)
                 ) {
                     SpanText(
-                        text = "${if (job.to==null) "${"since".i18n(language)} " else ""}${job.from.toMonth(language)} ${job.from.toYear()}",
+                        text = "${if (job.to==null) "${"since".i18n(language)} " else ""}${job.from[0].toMonth(language)} ${job.from[1]}",
                         modifier = Modifier
                             .fontSize(14.px)
                             .color(CVTheme.colors.secondaryVariant)
@@ -106,7 +105,7 @@ fun WorkExperience(
 
                     job.to?.let {
                         SpanText(
-                            text = " ~ ${job.to.toMonth(language)} ${job.to.toYear()}",
+                            text = " ~ ${job.to[0].toMonth(language)} ${job.to[1]}",
                             modifier = Modifier
                                 .fontSize(14.px)
                                 .color(CVTheme.colors.secondaryVariant)

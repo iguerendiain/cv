@@ -19,7 +19,7 @@ fun HomePage() {
     LaunchedEffect(Unit) {
         val endpointResponse = window
             .http
-            .get("${BASE_URL_ASSETS}/db.json")
+            .get("${BASE_URL_ASSETS}/db.test.json")
             .decodeToString()
 
             val jsonHandler = Json { ignoreUnknownKeys = true }
