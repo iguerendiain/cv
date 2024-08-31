@@ -59,7 +59,7 @@ fun Portfolio(
                     modifier = Modifier
                         .width(projectItemWidth.px)
                         .then(if (isDesktop) Modifier.aspectRatio(1f) else Modifier)
-                        .margin(all = 10.px)
+//                        .margin(all = 10.px)
                 )
             }
         }

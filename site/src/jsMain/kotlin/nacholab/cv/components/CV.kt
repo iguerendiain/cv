@@ -2,6 +2,7 @@ package nacholab.cv.components
 
 import androidx.compose.runtime.*
 import com.varabyte.kobweb.compose.css.Overflow
+import com.varabyte.kobweb.compose.css.functions.brightness
 import com.varabyte.kobweb.compose.css.functions.url
 import com.varabyte.kobweb.compose.dom.ref
 import com.varabyte.kobweb.compose.foundation.layout.Box
@@ -67,7 +68,7 @@ fun CV(cvData: MainCV, screenWidth: Int){
             modifier = Modifier
                 .fillMaxWidth()
                 .position(Position.Fixed)
-                .zIndex(99)
+                .zIndex(100)
         ) {
             when (it) {
                 HeaderEvent.LANGUAGE -> languageDialogPresent = !languageDialogPresent
