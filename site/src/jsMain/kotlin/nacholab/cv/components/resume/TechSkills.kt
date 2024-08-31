@@ -63,13 +63,13 @@ fun TechSkills(workData: List<TechDataItem>, language: String) {
                 ) {
                     for (column in 0 until columnCount) {
                         val itemIndex = column + row * columnCount
-                        if (itemIndex < itemCount){
-                            Row(
-                                modifier = Modifier
-                                    .weight(1f)
-                                    .fillMaxWidth()
-                                    .padding(bottom = 8.px),
-                            ){
+                        Row(
+                            modifier = Modifier
+                                .weight(1f)
+                                .fillMaxWidth()
+                                .padding(bottom = 8.px),
+                        ){
+                            if (itemIndex < itemCount) {
                                 Image(
                                     src = "$APP_ASSETS/listBullet.png",
                                     modifier = Modifier
