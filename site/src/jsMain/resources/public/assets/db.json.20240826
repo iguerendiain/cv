@@ -1,0 +1,1269 @@
+{
+    "languages":[
+        {
+            "code":"es",
+            "name":{
+                "es":"Español",
+                "en":"Spanish",
+                "kg":null
+            }
+        },
+        {
+            "code":"en",
+            "name":{
+                "es":"Inglés",
+                "en":"English",
+                "kg":null
+            }
+        }
+    ],
+    "defaultLanguage":"en",
+    "months":{
+        "es":["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio",
+        "Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
+        "en":["January","February","March","April","May","June","July",
+        "August","September","October","November", "December"],
+        "kg":[]
+    },
+    "pdf":{
+        "auto":{
+            "es":"Este documento fue automáticamente generado",
+            "en":"This document was automatically generated",
+            "kg":null
+        }
+    },
+    "navbar":{
+        "title":{
+            "es":"Ignacio Guerendiain",
+            "en":"Ignacio Guerendiain",
+            "kg":"Ignacio Guerendiain"
+        },
+        "menu":{
+            "portfolio":{
+                "title":{
+                    "es":"Portfolio",
+                    "en":"Portfolio",
+                    "kg":null
+                }
+            },
+            "cv":{
+                "title":{
+                    "es":"Currículum",
+                    "en":"Resume",
+                    "kg":null
+                }
+            },
+            "contact":{
+                "title":{
+                    "es":"Contacto",
+                    "en":"Contact",
+                    "kg":null
+                }
+            }
+        }
+    },
+    "portfolio":{
+        "title":{
+            "es":"Proyectos Destacados",
+            "en":"Portfolio",
+            "kg":"WIv JInmol"
+        },
+        "projects":[
+            {
+                "id":"cardsnacks",
+                "title":{
+                    "es":"CardSnacks",
+                    "en":"CardSnacks",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/cardsnacks.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Kotlin",
+                            "en":"Kotlin",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"AndroidX",
+                            "en":"AndroidX",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Animaciones",
+                            "en":"Animations",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Producción multimedia",
+                            "en":"Media production",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Canvas",
+                            "en":"Canvas",
+                            "kg":""
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/www.png",
+                        "title":{
+                            "es":"Sitio",
+                            "en":"Site",
+                            "kg":""
+                        },
+                        "url":"https://www.cardsnacks.com/"
+                    },
+		    {
+			"icon":"assets/googlePlay.png",
+			"title":{
+			    "es":"Google Play",
+			    "en":"Google Play",
+			    "kg":""
+			},
+			"url":"https://play.google.com/store/apps/details?id=mobigram.cardsnacks"
+		    }
+                ]
+            },
+            {
+                "id":"cv",
+                "title":{
+                    "es":"Portfolio",
+                    "en":"Portfolio",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/cv.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Proyecto personal",
+                            "en":"Personal project",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Angular 4",
+                            "en":"Angular 4",
+                            "kg":"Angular 4"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Bootstrap",
+                            "en":"Bootstrap",
+                            "kg":"Bootstrap"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Typescript",
+                            "en":"Typescript",
+                            "kg":"Typescript"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"i18n",
+                            "en":"i18n",
+                            "kg":"i18n"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Responsive",
+                            "en":"Responsive",
+                            "kg":"Responsive"
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/github.png",
+                        "title":{
+                            "es":"Github",
+                            "en":"Github",
+                            "kg":"Github"
+                        },
+                        "url":"https://github.com/iguerendiain/cv_angular"
+                    }
+                ]
+            },
+            {
+                "id":"cv",
+                "title":{
+                    "es":"Portfolio",
+                    "en":"Portfolio",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/cv.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Proyecto personal",
+                            "en":"Personal project",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Kotlin Multiplatform",
+                            "en":"Kotlin Multiplatform",
+                            "kg":"Kotlin Multiplatform"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Compose UI Multiplatform",
+                            "en":"Compose UI Multiplatform",
+                            "kg":"Compose UI Multiplatform"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"WASM",
+                            "en":"WASM",
+                            "kg":"WASM"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Soporte tema claro / obscuro",
+                            "en":"Dark / Light theme support",
+                            "kg":"Dark / Light theme support"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"i18n",
+                            "en":"i18n",
+                            "kg":"i18n"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Responsive",
+                            "en":"Responsive",
+                            "kg":"Responsive"
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/github.png",
+                        "title":{
+                            "es":"Github",
+                            "en":"Github",
+                            "kg":"Github"
+                        },
+                        "url":"https://github.com/iguerendiain/cv_kmp"
+                    }
+                ]
+            },
+            {
+                "id":"aa",
+                "title":{
+                    "es":"Android Authority",
+                    "en":"Android Authority",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/aa.jpg",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Líder de equipo",
+                            "en":"Team leader",
+                            "kg":null
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":null
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Retrofit",
+                            "en":"Retrofit",
+                            "kg":"Retrofit"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Backend",
+                            "en":"Backend",
+                            "kg":"Backend"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Node.JS",
+                            "en":"Node.JS",
+                            "kg":"Node.JS"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"MongoDB",
+                            "en":"MongoDB",
+                            "kg":"MongoDB"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"SQLite",
+                            "en":"SQLite",
+                            "kg":"SQLite"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Youtube",
+                            "en":"Youtube",
+                            "kg":"Youtube"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Podcast Player",
+                            "en":"Podcast Player",
+                            "kg":"Podcast Player"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Animaciones",
+                            "en":"Animations",
+                            "kg":"Animations"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Cahce local",
+                            "en":"Local cache",
+                            "kg":"Local cache"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Wordpress",
+                            "en":"Wordpress",
+                            "kg":"Wordpress"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Parseo de HTML",
+                            "en":"HTML parsing",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"RESTful",
+                            "en":"RESTful",
+                            "kg":"RESTful"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Notificaciones push",
+                            "en":"Push notifications",
+                            "kg":""
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/www.png",
+                        "title":{
+                            "es":"Sitio",
+                            "en":"Site",
+                            "kg":null
+                        },
+                        "url":"http://www.androidauthority.com"
+                    },
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Google Play",
+                            "en":"Google Play",
+                            "kg":"Google Play"
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=com.androidauthority.app"
+                    }
+                ]
+            },
+            {
+                "id":"eulertastic",
+                "title":{
+                    "es":"Eulertastic",
+                    "en":"Eulertastic",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/eulertastic.jpg",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Proyecto personal",
+                            "en":"Personal project",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Ingenio",
+                            "en":"Puzzle",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"LibGDX",
+                            "en":"LibGDX",
+                            "kg":"LibGDX"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Auto generado de niveles",
+                            "en":"Level auto generation",
+                            "kg":""
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Google Play",
+                            "en":"Google Play",
+                            "kg":"Google Play"
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=siema.cg.euler.android"
+                    }
+                ]
+            },
+            {
+                "id":"freeland",
+                "title":{
+                    "es":"Freeland",
+                    "en":"Freeland",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/freeland.jpg",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Proyecto personal",
+                            "en":"Personal project",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Plataformas 2D",
+                            "en":"2D platformer",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Como Sonic en 2D",
+                            "en":"2D Sonic like",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"LibGDX",
+                            "en":"LibGDX",
+                            "kg":"LibGDX"
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Google Play",
+                            "en":"Google Play",
+                            "kg":"Google Play"
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=siema.freeland"
+                    },
+                    {
+                        "icon":"assets/twitter.png",
+                        "title":{
+                            "es":"Twitter",
+                            "en":"Twitter",
+                            "kg":"Twitter"
+                        },
+                        "url":"https://twitter.com/FreelandTheGame"
+                    },
+                    {
+                        "icon":"assets/facebook.png",
+                        "title":{
+                            "es":"Facebook",
+                            "en":"Facebook",
+                            "kg":"Facebook"
+                        },
+                        "url":"https://www.facebook.com/freelandthegame"
+                    },
+                    {
+                        "icon":"assets/www.png",
+                        "title":{
+                            "es":"Sitio",
+                            "en":"Sitio",
+                            "kg":"Sitio"
+                        },
+                        "url":"http://freeland.siema.com.ar/"
+                    }
+                ]
+            },
+            {
+                "id":"planovalo",
+                "title":{
+                    "es":"Plan Óvalo",
+                    "en":"Plan Óvalo",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/planovalo.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Proyecto personal",
+                            "en":"Personal project",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Parseo de HTML",
+                            "en":"HTML parsing",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"No oficial",
+                            "en":"Unofficial",
+                            "kg":""
+                        }
+                    }
+                ],
+                "urls":[]
+            },
+            {
+                "id":"fansworld",
+                "title":{
+                    "es":"Fansworld.TV",
+                    "en":"Fansworld.TV",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/fwtv.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Reproductor VOD",
+                            "en":"VOD player",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Reproductor en vivo",
+                            "en":"Live streaming",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"RESTful",
+                            "en":"RESTful",
+                            "kg":"RESTful"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Chat",
+                            "en":"Chat",
+                            "kg":"Chat"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Retrofit",
+                            "en":"Retrofit",
+                            "kg":"Retrofit"
+                        }
+                    }
+                ],
+                "urls":[]
+            },
+            {
+                "id":"angrywords",
+                "title":{
+                    "es":"Apalabrados",
+                    "en":"Angry Words",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/angrywords.png",
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Ingenio",
+                            "en":"Puzzle",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Multijugador",
+                            "en":"Multiplayer",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Refactor de plataforma",
+                            "en":"Platform refactor",
+                            "kg":""
+                        }
+                    }        
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Google Play",
+                            "en":"Google Play",
+                            "kg":"Google Play"
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=com.etermax.apalabrados.lite"
+                    }
+                ]
+            },
+            {
+                "id":"angrymix",
+                "title":{
+                    "es":"Mezcladitos",
+                    "en":"Wordcrack",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/wordcrack.png",                
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                     {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Ingenio",
+                            "en":"Puzzle",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Multijugador",
+                            "en":"Multiplayer",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Andengine",
+                            "en":"Andengine",
+                            "kg":"Andengine"
+                        }
+                    }
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Sitio",
+                            "en":"Site",
+                            "kg":null
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=com.etermax.wordcrack.lite"
+                    }
+                ]
+            },
+            {
+                "id":"awayfind",
+                "title":{
+                    "es":"Awayfind",
+                    "en":"Awayfind",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/awayfind.png",                
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                     {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"RESTful",
+                            "en":"RESTful",
+                            "kg":"RESTful"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Como Google priority inbox",
+                            "en":"Google priority Inbox like",
+                            "kg":""
+                        }
+                    }        
+                ],
+                "urls":[
+                    {
+                        "icon":"assets/googlePlay.png",
+                        "title":{
+                            "es":"Google Play",
+                            "en":"Google Play",
+                            "kg":"Google Play"
+                        },
+                        "url":"https://play.google.com/store/apps/details?id=com.awayfind.app"
+                    }
+                ]
+            },
+            {
+                "id":"kingbandido",
+                "title":{
+                    "es":"King Bandido",
+                    "en":"King Bandido",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/kingbandido.png",                
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Portado de iOS",
+                            "en":"Ported from iOS",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Andengine",
+                            "en":"Andengine",
+                            "kg":"Andengine"
+                        }
+                    }
+                ],
+                "urls":[]
+            },
+            {
+                "id":"josecomes",
+                "title":{
+                    "es":"Jose comes to USA",
+                    "en":"Jose comes to USA",
+                    "kg":null
+                },
+                "icon":"assets/portfolio/jose.png",                
+                "description":{
+                    "es":null,
+                    "en":null,
+                    "kg":null
+                },
+                "items":[
+                    {
+                        "title":{
+                            "es":"Android",
+                            "en":"Android",
+                            "kg":"Android"
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Video juego",
+                            "en":"Videogame",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Portado de iOS",
+                            "en":"Ported from iOS",
+                            "kg":""
+                        }
+                    },
+                    {
+                        "title":{
+                            "es":"Andengine",
+                            "en":"Andengine",
+                            "kg":"Andengine"
+                        }
+                    }
+                ],
+                "urls":[]
+            }
+        ]
+    },
+    "cv":{
+        "title":{
+            "es":"Curriculum Vitae",
+            "en":"Resume",
+            "kg":"qa'"
+        },
+        "work":{
+            "title":{
+                "es":"Experiencia laboral seleccionada",
+                "en":"Selected work history",
+                "kg":""
+            },
+            "content":[
+                {
+                    "title":{
+                        "es":"CardSnacks",
+                        "en":"CardSnacks",
+                        "kg":""
+                    },
+                    "from":1569934825,
+                    "description":{
+                        "es":"Encargado de desarrollar la versión para Android de la aplicación de envío de tarjetas de felicitación.",
+                        "en":"In charge of development of the Android version of the greeting cards sending app.",
+                        "kg":""
+                    },
+                    "url":"https://www.cardsnacks.com/"
+                },
+                {
+                    "title":{
+                        "es":"CIOM",
+                        "en":"CIOM",
+                        "kg":"CIOM"
+                    },
+                    "from":1525651200,
+                    "to":1568986697,
+                    "description":{
+                        "es":"Desarrollador Android en Kotlin para la aplicación que utiliza la emperesa para realizar sus tareas de investigación de mercado. Grabación de video, formularios dinámicos y subidas de archivos son algunas de las tareas que realiza la aplicación. También participo del desarrollo del backend en Node.JS sobre Moleculer",
+                        "en":"Kotlin Android developer for the company's app which is used to perform its market research tasks. Video recording, dynamic forms and file uploads are some of the app's features. I also take part on backend development using Node.JS on the Moleculer framework",
+                        "kg":""
+                    },
+                    "url":"https://home.ciom.tech"
+                },
+                {
+                    "title":{
+                        "es":"Independiente",
+                        "en":"Freelancer",
+                        "kg":"Tlhab"
+                    },
+                    "from":1388534400,
+                    "to":null,
+                    "description":{
+                        "es":"Desarrollador Android y de backend independiente",
+                        "en":"Android and backend freelance developer",
+                        "kg":"Android Backend 'ej tlhab jonwI'"
+                    },
+                    "url":null
+                },
+                {
+                    "title":{
+                        "es":"Fansworld.TV",
+                        "en":"Fansworld.TV",
+                        "kg":"Fansworld.TV"
+                    },
+                    "from":1377993600,
+                    "to":1385856000,
+                    "description":{
+                        "es":"Parte del equipo de desarrollo de la aplicación nativa para Android de la plataforma multimedia de Fansworld TV.",
+                        "en":"Part of the development team for the native Android application for the Fansworld TV multimedia platform.",
+                        "kg":"NItlhDu' je, jonwI ghom Sung Android ghun Fansworld TV sarmedium waw'."
+                    },
+                    "url":"http://fwtv.tv"
+                },
+                {
+                    "title":{
+                        "es":"Proyecto de edición de audio web",
+                        "en":"Web audio editing project",
+                        "kg":"'ej bebvo' wab choH jInmol"
+                    },
+                    "from":1343779200,
+                    "to":1375315200,
+                    "description":{
+                        "es":"Encargado de llevar adelante el desarrollo de una herramienta para músicos. Trabajando como líder, analista y desarrollador. Liderando un equipo multidiciplinario trabajando en C y C++ sobre GNU/Linux y Windows para servidor y escritorio, Java bajo el estandar JAX-RS en su implementación de Sun Jersey, PostgreSQL y AngularJS. También encargado de la puesta en funcionamiento y mantenimiento de los servidores para el proyecto usando Apache, Tomcat y SVN sobre GNU/Linux.",
+                        "en":"In charge of de development of a tool for musicians. Working as a leader, analyst and developer. Leading a multidiciplinary team working on C and C++ on GNU/Linux and Windows for servers and desktop, Java under the JAX-RS standar in its Sun Jersey implementation, PostgreSQL and AngularJS. Had also the responsability of the installation and maintenance of the servers requires for the project using Apache, Tomcat and SVN on GNU/Linux.",
+                        "kg":"DevwI' jan jonwI qutluch muchwI'. Qap ra'wI', jonwI. sarqap ghom baj [taH GNU/Linux, Windows 'ej C++ 'ej jabwI' 'ej raS, bopummeH JAX-RS standbIngDaq ghItlh leghlu'ar reH jul Jersey qap, Java, Postgresql, Angularjs Dev. chaq je qap jonwI 'ej jInmol Apache, Tomcat 'ej SVN lo' GNU/LinuxpoQ jabwI' leH."
+                    },
+                    "url":null
+                },
+                {
+                    "title":{
+                        "es":"Etermax",
+                        "en":"Etermax",
+                        "kg":"Etermax"
+                    },
+                    "from":1328054400,
+                    "to":1338508800,
+                    "description":{
+                        "es":"Desarrollador principal desde el inicio de Mezcladitos, comunicación permanente con el equipo de diseño para su aplicación al juego y soporte a colegas sobre la plataforma.",
+                        "en":"Main developer of Wordcrack, permanent communication with the design team for its application to the game and platform support to coworkers.",
+                        "kg":"'Elbogh jonwI Wordcrack, puS ngaq ru'Ha' QumpIn je chut lulajpu'bogh ghom Quj ghun 'ej ghun."
+                    },
+                    "url":"http://www.etermax.com"
+                },
+                {
+                    "title":{
+                        "es":"Omilen",
+                        "en":"Omilen",
+                        "kg":"Omilen"
+                    },
+                    "from":1270080000,
+                    "to":1325376000,
+                    "description":{
+                        "es":"Desarrollo de aplicaciones de administración de contenido web y Android en Java, PHP y MySQL. Desarrollo de videojuegos para Android. Administración de sistemas (devops)",
+                        "en":"Web and Android content management applications development in Java, PHP and MySQL. Android videogame development. Devops.",
+                        "kg":null
+                    },
+                    "url":null
+                },
+                {
+                    "title":{
+                        "es":"PERT Consultores",
+                        "en":"PERT Consultores",
+                        "kg":"PERT Consultores"
+                    },
+                    "from":1249084800,
+                    "to":1270080000,
+                    "description":{
+                        "es":"Desarrollo de interfaces web para acceso a sistemas de telefónia IP y administración de cuentas de celulares. Desarrollo de aplicación de almacenamiento de claves y usuarios. Desarrollo de agregados a sistemas de monitoreo para Asterisk sobre Nagios y Remstats.",
+                        "en":"VOIP web interface access and cellphone user accounts management development. Nagios and Remstats Asterisk monitoring plugins.",
+                        "kg":null
+                    },
+                    "url":"http://www.pert.com.ar"
+                },
+                {
+                    "title":{
+                        "es":"Train Solutions",
+                        "en":"Train Solutions",
+                        "kg":"Train Solutions"
+                    },
+                    "from":1138752000,
+                    "to":1249084800,
+                    "description":{
+                        "es":"Implementación de SVN, Trac y MediaWiki para el área de producción de la empresa. Desarrollo y administración de la base de datos del RENATRE (Registro Nacional de Trabajadores Rurales y Empleadores) y otros proyectos más chicos para la empresa en sí, PBA (Policia de Buenos Aires) y La Caja de Ahorro usando GNU/Linux, Windows 2003 Server, PostgreSQL, PHP.",
+                        "en":"SVN, Trac and MediaWiki implementation for the development area of the company. Administration and development of the RENATRE database and other smaller projects for other clients and the company itself. Worked with GNU/Linux, PostgreSQL and PHP mainly.",
+                        "kg":null
+                    },
+                    "url":null
+                },
+                {
+                    "title":{
+                        "es":"Webmind",
+                        "en":"Webmind",
+                        "kg":"Webmind"
+                    },
+                    "from":1101859200,
+                    "to":1138752000,
+                    "description":{
+                        "es":"Desarrollo de sistemas de administración de contenido en PHP y MySQL. Instalación y administración de estaciones de trabajo y servidores en GNU/Linux para la empresa y clientes. Migración completa a software libre del área de administración y de desarrollo de la empresa. Liderazgo de equipo, desarrollador, analista de sistemas y administrador de sistemas.",
+                        "en":"Web content management applications development in PHP and MySQL. Installation and administration of GNU/Linux servers and workstations for the company and clients. Total migration to free and libre software of development and administration department of the company. Team leader, developer, system analyst and devops.",
+                        "kg":null
+                    },
+                    "url":"http://webmind.com.ar/"
+                }
+            ]
+        },
+        "tech":{
+            "title":{
+                "es":"Capacidades técnicas seleccionadas",
+                "en":"Selected technical skills",
+                "kg":""
+            },
+            "content":[
+                {
+                    "title":{
+                        "es":"Lenguajes, frameworks y bibliotecas",
+                        "en":"Languages, frameworks and libraries",
+                        "kg":null
+                    },
+                    "content":[
+                        "Android",
+                        "Kotlin",
+                        "Jetpack Navigation",
+                        "Jetpack ConstraintLayout",
+                        "Braintree",
+                        "ExoPlayer",
+                        "Glide",
+                        "Jetpack Lifecycle",
+                        "Retrofit2",
+                        "Jetpack WorkManager",
+			"Kotlin Coroutines",
+			"MVVM",
+                        "Lottie",
+                        "AWS",
+                        "FFMpeg",
+                        "PaperDB",
+			"Room",
+			"SOLID",
+                        "Flutter",
+                        "Rust & Cargo",
+                        "Node & NPM",
+                        "Express",
+                        "Mongoose",
+                        "LibGDX",
+                        "Angular",
+                        "React",
+                        "Typescript",
+                        "MySQL",
+                        "PostgreSQL",
+                        "PHP",
+                        "Shell scripting"
+                    ]
+                },
+                {
+                    "title":{
+                        "es":"Herramientas de desarrollo",
+                        "en":"Development tools",
+                        "kg":null
+                    },
+                    "content":[
+                        "Android Studio",
+                        "VSCode",
+                        "Jira",
+                        "GIT",
+                        "GitHub",
+                        "Google Android SDK",
+                        "ADB",
+                        "Firebase",
+                        "Lottie",
+                        "AWS",
+                        "Mixpanel",
+                        "Apache",
+                        "NGInx"
+                    ]
+                }
+            ]
+        },
+        "languages":{
+            "title":{
+                "es":"Idiomas",
+                "en":"Languages",
+                "kg":null
+            },
+            "content":[
+                {
+                    "title":{
+                        "es":"Español",
+                        "en":"Spanish",
+                        "kg":null
+                    },
+                    "description":{
+                        "es":"Nativo",
+                        "en":"Native",
+                        "kg":null
+                    }
+                },
+                {
+                    "title":{
+                        "es":"Inglés",
+                        "en":"English",
+                        "kg":null
+                    },
+                    "description":{
+                        "es":"Lectura, escritura y comprensión oral avanzada. Expresión oral avanzada-intermedia.",
+                        "en":"Advanced reading, writing and comprehension. Advanded-Intermediate speaking.",
+                        "kg":null
+                    }
+                },
+                {
+                    "title":{
+                        "es":"Italiano",
+                        "en":"Italian",
+                        "kg":null
+                    },
+                    "description":{
+                        "es":"Básico",
+                        "en":"Basic",
+                        "kg":null
+                    }
+                }
+            ]
+        }
+    },
+    "contact":{
+        "title":{
+            "es":"Contacto",
+            "en":"Contact",
+            "kg":null
+        },
+        "avatar":"assets/avatar.png",
+        "linkedin":"https://www.linkedin.com/in/iguerendiain/",
+        "email":"iguerendiain@proton.me",
+        "UIcredits":{
+            "title":{
+                "es":"Diseño",
+                "en":"Design",
+                "kg":null
+            },
+            "name":"Guillermina Caputo",
+            "link":"mailto:guillerminac@gmail.com"
+        }
+    }
+}
