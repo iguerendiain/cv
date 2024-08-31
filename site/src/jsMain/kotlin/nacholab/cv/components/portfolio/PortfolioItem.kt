@@ -14,6 +14,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.navigation.Anchor
 import com.varabyte.kobweb.silk.components.graphics.Image
 import com.varabyte.kobweb.silk.components.text.SpanText
+import nacholab.cv.APP_ASSETS
 import nacholab.cv.BASE_URL
 import nacholab.cv.theme.CommonStyles.tint
 import nacholab.cv.KEY_TITLE
@@ -98,7 +99,7 @@ fun PortfolioItem(
                                 verticalAlignment = Alignment.Top
                             ){
                                 Image(
-                                    src = "assets/listBullet.png",
+                                    src = "$APP_ASSETS/listBullet.png",
                                     modifier = Modifier
                                         .width(9.px)
                                         .height(10.px)

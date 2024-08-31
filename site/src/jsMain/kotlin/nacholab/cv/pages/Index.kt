@@ -22,8 +22,8 @@ fun HomePage() {
             .get("${BASE_URL_ASSETS}/db.json")
             .decodeToString()
 
-        val jsonHandler = Json { ignoreUnknownKeys = true }
-        cvData = jsonHandler.decodeFromString<MainCV>(endpointResponse)
+            val jsonHandler = Json { ignoreUnknownKeys = true }
+            cvData = jsonHandler.decodeFromString<MainCV>(endpointResponse)
 
         window.onresize = { window.innerWidth.let { screenWidth = it} }
     }

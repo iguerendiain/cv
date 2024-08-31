@@ -11,6 +11,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.theme.shapes.Rect
 import com.varabyte.kobweb.silk.theme.shapes.clip
 import kotlinx.browser.window
+import nacholab.cv.APP_ASSETS
 import nacholab.cv.BASE_URL
 import nacholab.cv.RESPONSIVE_WIDTH_THRESHOLD
 import nacholab.cv.model.ContactData
@@ -38,7 +39,7 @@ fun Contact(contact: ContactData) {
 
             ContactLink(
                 modifier = Modifier.width(300.px),
-                iconSrc = "assets/ic_email.png",
+                iconSrc = "${APP_ASSETS}/ic_email.png",
                 linkText = contact.email,
                 linkURL = "mailto:${contact.email}"
             )
@@ -47,7 +48,7 @@ fun Contact(contact: ContactData) {
 
             ContactLink(
                 modifier = Modifier.width(300.px),
-                iconSrc = "assets/ic_linkedin.png",
+                iconSrc = "${APP_ASSETS}/ic_linkedin.png",
                 linkText = "LinkedIn",
                 linkURL = contact.linkedin
             )
@@ -68,7 +69,7 @@ fun Contact(contact: ContactData) {
                 .height(48.px)
                 .clip(Rect(cornerRadius = 18.px))
                 .background(CVTheme.colors.secondaryVariant),
-            iconSrc = "assets/ic_email.png",
+            iconSrc = "${APP_ASSETS}/ic_email.png",
             linkText = contact.email,
             linkURL = "mailto:${contact.email}"
         )
@@ -81,7 +82,7 @@ fun Contact(contact: ContactData) {
                 .height(48.px)
                 .clip(Rect(cornerRadius = 18.px))
                 .background(CVTheme.colors.secondaryVariant),
-            iconSrc = "assets/ic_linkedin.png",
+            iconSrc = "${APP_ASSETS}/ic_linkedin.png",
             linkText = "LinkedIn",
             linkURL = contact.linkedin
         )

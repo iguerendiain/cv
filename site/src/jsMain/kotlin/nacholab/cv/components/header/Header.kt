@@ -113,7 +113,7 @@ fun Header(
 
                 Link(path = BASE_URL_ASSETS + "iguerendiainCV.pdf"){
                     Image(
-                        src = "assets/ic_download_pdf.png",
+                        src = "${APP_ASSETS}/ic_download_pdf.png",
                         modifier = Modifier
                             .size(28.px)
                             .margin(right = 14.px)

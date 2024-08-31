@@ -15,6 +15,7 @@ import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.toModifier
 import kotlinx.browser.window
+import nacholab.cv.APP_ASSETS
 import nacholab.cv.theme.CommonStyles
 import nacholab.cv.theme.CommonStyles.tint
 import nacholab.cv.RESPONSIVE_WIDTH_THRESHOLD
@@ -121,7 +122,7 @@ fun WorkExperience(
                     .padding(left = 22.px, right = 22.px, bottom = 20.px)
             ){
                 Image(
-                    src = "assets/listBullet.png",
+                    src = "$APP_ASSETS/listBullet.png",
                     modifier = Modifier
                         .margin(top = 4.px)
                         .width(9.px)

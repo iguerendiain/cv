@@ -12,6 +12,7 @@ import com.varabyte.kobweb.silk.components.icons.fa.FaCircleChevronRight
 import com.varabyte.kobweb.silk.components.icons.fa.IconSize
 import com.varabyte.kobweb.silk.components.text.SpanText
 import kotlinx.browser.window
+import nacholab.cv.APP_ASSETS
 import nacholab.cv.theme.CommonStyles.tint
 import nacholab.cv.RESPONSIVE_WIDTH_THRESHOLD
 import nacholab.cv.model.TechDataItem
@@ -70,7 +71,7 @@ fun TechSkills(workData: List<TechDataItem>, language: String) {
                                     .padding(bottom = 8.px),
                             ){
                                 Image(
-                                    src = "assets/listBullet.png",
+                                    src = "$APP_ASSETS/listBullet.png",
                                     modifier = Modifier
                                         .margin(top = 4.px, right = 4.px)
                                         .width(9.px)

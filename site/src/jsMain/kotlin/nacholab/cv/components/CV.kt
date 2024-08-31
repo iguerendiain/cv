@@ -12,6 +12,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.style.CssStyle
 import com.varabyte.kobweb.silk.style.toModifier
 import kotlinx.browser.window
+import nacholab.cv.APP_ASSETS
 import nacholab.cv.DEFAULT_LANGUAGE
 import nacholab.cv.components.common.SectionTitle
 import nacholab.cv.components.contact.Contact
@@ -89,7 +90,7 @@ fun CV(cvData: MainCV, screenWidth: Int){
             modifier = Modifier
                 .fillMaxSize()
                 .background(CVTheme.colors.background)
-                .backgroundImage(url("assets/bg.png"))
+                .backgroundImage(url("$APP_ASSETS/bg.png"))
                 .overflow(Overflow.Auto)
         ) {
             Box(modifier = Modifier.height(106.px))
