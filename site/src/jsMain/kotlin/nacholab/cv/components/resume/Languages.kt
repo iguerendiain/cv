@@ -49,7 +49,7 @@ fun Languages(languages: List<LanguageDataItem>, language: String) {
                     text = it,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .margin(left = 20.px, right = 20.px, bottom = 20.px)
+                        .padding(left = 20.px, right = 20.px, bottom = 20.px)
                         .textAlign(TextAlign.Justify)
                         .fontSize(18.px)
                         .lineHeight(22.px)
