@@ -584,6 +584,19 @@
                 },
                 {
                     "title":{
+                        "es":"Android Authority",
+                        "en":"Android Authority"
+                    },
+                    "from":[1,2015],
+                    "to":[4,2020],
+                    "description":{
+                        "es":"Comencé desde cero desarrollando tanto el backend como la aplicación Android para este sitio de noticias de Android. El backend fue hecho en Node/Express/Mongo que lee de la base de datos MySQL de Wordpress directamente y entrega la información requerida a la aplicación Android la que renderiza de manera nativa los diferentes componentes que constituyen un artículo, desde podcasts en audio, a videos de YouTube, widget de reseñas, encuestas, etc.",
+                        "en":"Started from scratch working on both the backend and Android application for this Android related news site. The backend done in Node/Express/Mongo reads from the MySQL Wordpress database directly and delivers the information required by the Android application which renders natively all the different components used to build an article, from audio podcasts, to YouTube videos, review widgets, polls, etc."
+                    },
+                    "url":"https://www.androidauthority.com/"
+                },
+                {
+                    "title":{
                         "es":"Fansworld.TV",
                         "en":"Fansworld.TV"
                     },
