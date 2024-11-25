@@ -559,18 +559,6 @@
             "content":[
                 {
                     "title":{
-                        "es":"Perficient",
-                        "en":"Perficient"
-                    },
-                    "from":[12,2024],
-                    "description":{
-                        "es":"Desarrollador Android (Kotlin) y Backend (Node) para Banco Popular de Puerto Rico",
-                        "en":"Android (Kotlin) and Backend (Node) developer for Banco Popular (Puerto Rico)."
-                    },
-                    "url":"https://www.perficient.com/"
-                },
-                {
-                    "title":{
                         "es":"CardSnacks",
                         "en":"CardSnacks"
                     },
