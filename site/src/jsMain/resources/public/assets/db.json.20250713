@@ -559,15 +559,15 @@
             "content":[
                 {
                     "title":{
-                        "es":"Underdog",
-                        "en":"Underdog"
+                        "es":"Perficient",
+                        "en":"Perficient"
                     },
                     "from":[12,2024],
                     "description":{
-                        "es":"Senior Android Engineer",
-                        "en":"Senior Android Engineer"
+                        "es":"Miembro del customer squad de Account Management & Servicing como Ingeniero de Software Android (MVVM / Clean Architecture / Jetpack Compose) para el proyecto MiBanco 4.0 para Banco Popular de Puerto Rico",
+                        "en":"Member of the Account Management & Servicing customer squad as an Android Software Engineer (MVVM / Clean Architecture / Jetpack Compose) for the MiBanco 4.0 project for Banco Popular of Puerto Rico."
                     },
-                    "url":"https://underdogfantasy.com/"
+                    "url":"https://www.perficient.com/"
                 },
                 {
                     "title":{
@@ -580,18 +580,6 @@
                         "en":"As the sole developer of the Android greetings cards application, I successfully develop, deploy, and maintain the app from start to finish. I manage all aspects of the development process, including UI implementation, testing distribution (via Firebase) and Google Play management. The app allows the users to create personalized pages with a variety of media, including images, videos, audio, and more. The application is public and has been downloaded by tens of thousands of users."
                     },
                     "url":"https://www.cardsnacks.com/"
-                },
-                {
-                    "title":{
-                        "es":"Perficient",
-                        "en":"Perficient"
-                    },
-                    "from":[12,2024],
-                    "description":{
-                        "es":"Miembro del customer squad de Account Management & Servicing como Ingeniero de Software Android (MVVM / Clean Architecture / Jetpack Compose) para el proyecto MiBanco 4.0 para Banco Popular de Puerto Rico",
-                        "en":"Member of the Account Management & Servicing customer squad as an Android Software Engineer (MVVM / Clean Architecture / Jetpack Compose) for the MiBanco 4.0 project for Banco Popular of Puerto Rico."
-                    },
-                    "url":"https://www.perficient.com/"
                 },
                 {
                     "title":{
