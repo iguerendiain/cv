@@ -562,7 +562,7 @@
                         "es":"Underdog",
                         "en":"Underdog"
                     },
-                    "from":[12,2024],
+                    "from":[7,2025],
                     "description":{
                         "es":"Senior Android Engineer",
                         "en":"Senior Android Engineer"
@@ -587,6 +587,7 @@
                         "en":"Perficient"
                     },
                     "from":[12,2024],
+                    "to":[6,2025],
                     "description":{
                         "es":"Miembro del customer squad de Account Management & Servicing como Ingeniero de Software Android (MVVM / Clean Architecture / Jetpack Compose) para el proyecto MiBanco 4.0 para Banco Popular de Puerto Rico",
                         "en":"Member of the Account Management & Servicing customer squad as an Android Software Engineer (MVVM / Clean Architecture / Jetpack Compose) for the MiBanco 4.0 project for Banco Popular of Puerto Rico."
