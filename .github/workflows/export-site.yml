@@ -78,11 +78,3 @@ jobs:
             -e "ssh -i ~/.ssh/id_rsa -p ${SSH_PORT} -o StrictHostKeyChecking=no" \
             site/.kobweb/site/ \
             ${SSH_USER}@${SSH_HOST}:${DEPLOY_DIR}
-
-      - name: Upload site
-        uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: site/.kobweb/site/
-          if-no-files-found: error
-          retention-days: 1
