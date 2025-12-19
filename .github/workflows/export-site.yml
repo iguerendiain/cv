@@ -1,0 +1,88 @@
+name: Build and deploy CV
+
+on:
+  workflow_dispatch: #A
+
+jobs:
+  export_and_upload:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
+    env:
+      KOBWEB_CLI_VERSION: 0.9.21
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 11
+
+      - name: Ensure Gradle is executable
+        run: chmod +x gradlew
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Query Browser Cache ID
+        id: browser-cache-id
+        run: echo "value=$(./gradlew -q :site:kobwebBrowserCacheId)" >> $GITHUB_OUTPUT
+
+      - name: Cache Browser Dependencies
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.browser-cache-id.outputs.value }}
+
+      - name: Fetch kobweb
+        uses: robinraju/release-downloader@v1.9
+        with:
+          repository: "varabyte/kobweb-cli"
+          tag: "v${{ env.KOBWEB_CLI_VERSION }}"
+          fileName: "kobweb-${{ env.KOBWEB_CLI_VERSION }}.zip"
+          tarBall: false
+          zipBall: false
+
+      - name: Unzip kobweb
+        run: unzip kobweb-${{ env.KOBWEB_CLI_VERSION }}.zip
+
+      - name: Run export
+        run: |
+          cd site
+          ../kobweb-${{ env.KOBWEB_CLI_VERSION }}/bin/kobweb export --notty --layout static
+
+      - name: Deploy to VPS via SSH (rsync)
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.VPS_SSH_HOST }}
+          SSH_USER: ${{ secrets.VPS_SSH_USER }}
+          SSH_PORT: ${{ secrets.VPS_SSH_PORT || '22' }}
+          DEPLOY_DIR: ${{ secrets.VPS_DEPLOY_DIR }}
+        run: |
+          # Install rsync if missing (usually pre-installed on ubuntu-latest)
+          sudo apt-get update && sudo apt-get install -y rsync
+
+          # Setup SSH key
+          mkdir -p ~/.ssh
+          echo "${SSH_PRIVATE_KEY}" | tr -d '\r' > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          # Add VPS host to known_hosts (prevents host key verification failure)
+          ssh-keyscan -H -p ${SSH_PORT} ${SSH_HOST} >> ~/.ssh/known_hosts
+
+          # Deploy with rsync: copy contents, compress, verbose, delete removed files
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_rsa -p ${SSH_PORT} -o StrictHostKeyChecking=no" \
+            site/.kobweb/site/ \
+            ${SSH_USER}@${SSH_HOST}:${DEPLOY_DIR}
+
+      - name: Upload site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/.kobweb/site/
+          if-no-files-found: error
+          retention-days: 1
