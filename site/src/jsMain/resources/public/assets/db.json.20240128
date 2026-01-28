@@ -559,18 +559,6 @@
             "content":[
                 {
                     "title":{
-                        "es":"Encora",
-                        "en":"Encora"
-                    },
-                    "from":[10,2019],
-                    "description":{
-                        "es":"Senior Software Engineer",
-                        "en":"Senior Software Engineer"
-                    },
-                    "url":"https://www.encora.com/"
-                },
-                {
-                    "title":{
                         "es":"CardSnacks",
                         "en":"CardSnacks"
                     },
