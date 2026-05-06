@@ -576,7 +576,7 @@
                     },
                     "from":[10,2019],
                     "description":{
-                        "es":"Como el único desarrolador de la aplicación de tarjetas de felicitaciones, desarrollo, distribullo y mantengo la aplicación de principio a fin. Manejo todos los aspectos del proceso de producción, incluyendo la implementación del diseño, distribución para testing (via Firebase) y administración de Google Play. La aplicación permite a los usuarios crear páginas personalizadas con una gran variedad de medios, incluyendo videos, imágenes, audio y más. Esta aplicación es pública y ha sido descargada por decenas de miles de usuarios.",
+                        "es":"Como el único desarrollador de la aplicación de tarjetas de felicitaciones, desarrollo, distribuyo y mantengo la aplicación de principio a fin. Manejo todos los aspectos del proceso de producción, incluyendo la implementación del diseño, distribución para testing (vía Firebase) y administración de Google Play. La aplicación permite a los usuarios crear páginas personalizadas con una gran variedad de medios, incluyendo videos, imágenes, audio y más. Esta aplicación es pública y ha sido descargada por decenas de miles de usuarios.",
                         "en":"As the sole developer of the Android greetings cards application, I successfully develop, deploy, and maintain the app from start to finish. I manage all aspects of the development process, including UI implementation, testing distribution (via Firebase) and Google Play management. The app allows the users to create personalized pages with a variety of media, including images, videos, audio, and more. The application is public and has been downloaded by tens of thousands of users."
                     },
                     "url":"https://www.cardsnacks.com/"
@@ -706,7 +706,7 @@
                     "from":[2,2006],
                     "to":[8,2009],
                     "description":{
-                        "es":"Implementación de SVN, Trac y MediaWiki para el área de producción de la empresa. Desarrollo y administración de la base de datos del RENATRE (Registro Nacional de Trabajadores Rurales y Empleadores) y otros proyectos más chicos para la empresa en sí, PBA (Policia de Buenos Aires) y La Caja de Ahorro usando GNU/Linux, Windows 2003 Server, PostgreSQL, PHP.",
+                        "es":"Implementación de SVN, Trac y MediaWiki para el área de producción de la empresa. Desarrollo y administración de la base de datos del RENATRE (Registro Nacional de Trabajadores Rurales y Empleadores) y otros proyectos más chicos para la empresa en sí, PBA (Policía de Buenos Aires) y La Caja de Ahorro usando GNU/Linux, Windows 2003 Server, PostgreSQL, PHP.",
                         "en":"SVN, Trac and MediaWiki implementation for the development area of the company. Administration and development of the RENATRE database and other smaller projects for other clients and the company itself. Worked with GNU/Linux, PostgreSQL and PHP mainly."
                     },
                     "url":null
