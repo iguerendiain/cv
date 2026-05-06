@@ -559,15 +559,15 @@
             "content":[
                 {
                     "title":{
-                        "es":"Disney",
-                        "en":"Disney"
+                        "es":"Encora",
+                        "en":"Encora"
                     },
                     "from":[2,2026],
                     "description":{
                         "es":"Senior Software Engineer",
                         "en":"Senior Software Engineer"
                     },
-                    "url":"https://www.disney.com/"
+                    "url":"https://www.encora.com/"
                 },
                 {
                     "title":{
