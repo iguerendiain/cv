@@ -36,19 +36,18 @@ fun buildWorkExperienceContent(workData: WorkExperienceData, language: String): 
         job.title[language]?.let { stackItems.add(jobTitleContent(job, it, language)) }
 
         val paragraphs = job.description[language].orEmpty()
-        paragraphs.forEachIndexed { index, paragraph ->
+        if (paragraphs.isNotEmpty()) {
             stackItems.add(
                 json(
-                    "text" to paragraph,
-                    "alignment" to "justify",
-                    "fontSize" to PdfTheme.DEFAULT_FONT_SIZE,
-                    "color" to PdfTheme.DEFAULT_TEXT_COLOR,
-                    "margin" to arrayOf(
-                        20.0,
-                        0.0,
-                        0.0,
-                        if (index == paragraphs.lastIndex) PdfTheme.SECTION_SPACING else 4.0
-                    )
+                    "ul" to paragraphs.map { paragraph ->
+                        json(
+                            "text" to paragraph,
+                            "alignment" to "justify",
+                            "fontSize" to PdfTheme.DEFAULT_FONT_SIZE,
+                            "color" to PdfTheme.DEFAULT_TEXT_COLOR
+                        )
+                    }.toTypedArray(),
+                    "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING)
                 )
             )
         }
