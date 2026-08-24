@@ -11,8 +11,13 @@ private fun buildCvDocDefinition(cvData: MainCV, language: String): dynamic = js
     "content" to arrayOf(
         buildWorkExperienceContent(cvData.cv.work, language),
         buildTechnicalSkillsContent(cvData.cv.tech, language),
-        buildLanguagesContent(cvData.cv.languages, language),
-        buildPortfolioContent(cvData.portfolio, language)
+        json(
+            "columns" to arrayOf(
+                buildLanguagesContent(cvData.cv.languages, language, widthPercent = 40),
+                buildPortfolioContent(cvData.portfolio, language, widthPercent = 60)
+            ),
+            "columnGap" to 15.0
+        )
     ),
     "defaultStyle" to json("font" to "Roboto"),
     "info" to json("title" to (cvData.navbar.title[language] ?: "CV"))

@@ -3,7 +3,7 @@ package nacholab.cv.pdf
 import kotlin.js.json
 import nacholab.cv.model.LanguagesData
 
-fun buildLanguagesContent(languagesData: LanguagesData, language: String): dynamic {
+fun buildLanguagesContent(languagesData: LanguagesData, language: String, widthPercent: Int): dynamic {
     val stackItems = mutableListOf<dynamic>()
 
     languagesData.title[language]?.let { stackItems.add(pdfSectionTitle(it)) }
@@ -29,5 +29,5 @@ fun buildLanguagesContent(languagesData: LanguagesData, language: String): dynam
         )
     }
 
-    return json("stack" to stackItems.toTypedArray(), "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING))
+    return json("stack" to stackItems.toTypedArray(), "width" to "$widthPercent%")
 }

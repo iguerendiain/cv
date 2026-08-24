@@ -42,7 +42,7 @@ private fun projectItemsLine(project: ProjectData, language: String): dynamic = 
     "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING)
 )
 
-fun buildPortfolioContent(portfolioData: PortfolioData, language: String): dynamic {
+fun buildPortfolioContent(portfolioData: PortfolioData, language: String, widthPercent: Int): dynamic {
     val stackItems = mutableListOf<dynamic>()
 
     portfolioData.title[language]?.let { stackItems.add(pdfSectionTitle(it)) }
@@ -52,5 +52,5 @@ fun buildPortfolioContent(portfolioData: PortfolioData, language: String): dynam
         stackItems.add(projectItemsLine(project, language))
     }
 
-    return json("stack" to stackItems.toTypedArray())
+    return json("stack" to stackItems.toTypedArray(), "width" to "$widthPercent%")
 }
