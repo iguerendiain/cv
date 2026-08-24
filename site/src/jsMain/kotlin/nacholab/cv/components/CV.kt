@@ -23,6 +23,7 @@ import nacholab.cv.components.header.HeaderEvent
 import nacholab.cv.components.portfolio.Portfolio
 import nacholab.cv.components.resume.Resume
 import nacholab.cv.model.MainCV
+import nacholab.cv.pdf.downloadCvPdf
 import nacholab.cv.theme.CVTheme
 import org.jetbrains.compose.web.css.Position
 import org.jetbrains.compose.web.css.px
@@ -83,6 +84,7 @@ fun CV(cvData: MainCV, screenWidth: Int){
                 )
 
                 HeaderEvent.PORTFOLIO -> window.scrollTo(x = 0.0, y = 0.0)
+                HeaderEvent.PDF -> downloadCvPdf(cvData, language)
             }
         }
 

@@ -15,7 +15,6 @@ import com.varabyte.kobweb.silk.components.icons.fa.FaAt
 import com.varabyte.kobweb.silk.components.icons.fa.FaGlobe
 import com.varabyte.kobweb.silk.components.icons.fa.FaTurnDown
 import com.varabyte.kobweb.silk.components.icons.fa.IconSize
-import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.toModifier
 import kotlinx.browser.window
@@ -27,7 +26,7 @@ import org.jetbrains.compose.web.css.Color
 import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.css.px
 
-enum class HeaderEvent { LANGUAGE, RESUME, CONTACT, PORTFOLIO }
+enum class HeaderEvent { LANGUAGE, RESUME, CONTACT, PORTFOLIO, PDF }
 
 @Composable
 fun Header(
@@ -124,15 +123,15 @@ fun Header(
                         )
                     }
 
-                    Link(path = BASE_URL_ASSETS + "iguerendiainCV.pdf") {
-                        Image(
-                            src = "${APP_ASSETS}/ic_download_pdf.png",
-                            modifier = Modifier
-                                .size(28.px)
-                                .margin(right = 14.px)
-                                .title(data.menu.pdf[KEY_TITLE]?.get(language) ?: "")
-                        )
-                    }
+                    Image(
+                        src = "${APP_ASSETS}/ic_download_pdf.png",
+                        modifier = Modifier
+                            .size(28.px)
+                            .margin(right = 14.px)
+                            .title(data.menu.pdf[KEY_TITLE]?.get(language) ?: "")
+                            .then(CommonStyles.hoverPointer.toModifier())
+                            .onClick { onEvent(HeaderEvent.PDF) }
+                    )
 
                     FaGlobe(
                         size = IconSize.X2,

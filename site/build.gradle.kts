@@ -42,6 +42,7 @@ kotlin {
             implementation(libs.kobweb.core)
             implementation(libs.kobweb.silk)
             implementation(libs.silk.icons.fa)
+            implementation(npm("pdfmake", "0.1.53"))
         }
     }
 }

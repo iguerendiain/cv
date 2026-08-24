@@ -564,13 +564,8 @@
                     },
                     "from":[2,2026],
                     "description":{
-                        "es":["Senior Software Engineer"],
-                        "en":[
-                            "Diagnosed and resolved defects across a large-scale Android application spanning legacy and modern codebases, navigating a system with thousands of interdependent, undocumented business rules to deliver reliable fixes under tight release cycles.• Managed and executed cherry-picks of bug fixes and features across multiple release branches, ensuring consistent, stable rollout of changes across concurrent versions of a large-scale Android application.",
-                            "Authored internal technical documentation to capture tribal knowledge around undocumented business logic, improving maintainability and reducing onboarding friction for the team",
-                            "Provided informal mentorship and troubleshooting support to teammates, helping unblock colleagues working through unfamiliar or poorly documented parts of the codebase.",
-                            "Operated effectively with minimal system-level documentation or team support, developing strong independent debugging and reverse-engineering skills to maintain a mission-critical application."
-                        ]
+                        "es":"Senior Software Engineer",
+                        "en":"Senior Software Engineer"
                     },
                     "url":"https://www.disney.com/"
                 },
@@ -581,14 +576,8 @@
                     },
                     "from":[10,2019],
                     "description":{
-                        "es":["Como el único desarrollador de la aplicación de tarjetas de felicitaciones, desarrollo, distribuyo y mantengo la aplicación de principio a fin. Manejo todos los aspectos del proceso de producción, incluyendo la implementación del diseño, distribución para testing (vía Firebase) y administración de Google Play. La aplicación permite a los usuarios crear páginas personalizadas con una gran variedad de medios, incluyendo videos, imágenes, audio y más. Esta aplicación es pública y ha sido descargada por decenas de miles de usuarios."],
-                        "en":[
-                            "Engaged as the sole Android developer to design and build the Android version of CardSnacks, an established iOS greeting card and gift card app, from the ground up — architecting and implementing the full application for a new platform based on an existing product vision.",
-                            "Owned the complete Android development lifecycle end-to-end: UI/UX implementation, feature development, QA, and release management, working directly with the app owner as the sole technical resource on the platform.",
-                            "Built a rich multimedia personalization engine allowing users to create custom greeting cards with photos, video, voice recordings, stickers, and music.",
-                            "Managed beta testing and staged rollouts via Firebase App Distribution, and owned production release and ongoing maintenance through Google Play Console.",
-                            "Shipped and maintain a live, publicly available app rated 4.8★ (15K+ reviews) with 100,000+ downloads on Google Play."
-                        ]
+                        "es":"Como el único desarrollador de la aplicación de tarjetas de felicitaciones, desarrollo, distribuyo y mantengo la aplicación de principio a fin. Manejo todos los aspectos del proceso de producción, incluyendo la implementación del diseño, distribución para testing (vía Firebase) y administración de Google Play. La aplicación permite a los usuarios crear páginas personalizadas con una gran variedad de medios, incluyendo videos, imágenes, audio y más. Esta aplicación es pública y ha sido descargada por decenas de miles de usuarios.",
+                        "en":"As the sole developer of the Android greetings cards application, I successfully develop, deploy, and maintain the app from start to finish. I manage all aspects of the development process, including UI implementation, testing distribution (via Firebase) and Google Play management. The app allows the users to create personalized pages with a variety of media, including images, videos, audio, and more. The application is public and has been downloaded by tens of thousands of users."
                     },
                     "url":"https://www.cardsnacks.com/"
                 },
@@ -600,13 +589,8 @@
                     "from":[7,2025],
                     "to":[1,2026],
                     "description":{
-                        "es":["Senior Android Engineer"],
-                        "en":[
-                            "Contributed as a Senior Android Developer on a high-traffic sports fantasy and prediction platform, developing new features alongside an experienced, collaborative engineering team known for strong engineering practices.",
-                            "Designed and implemented new user-facing features across core product areas, including real-time drafting, pick'em contests, and player statistics, leveraging clear technical documentation and established architectural patterns.",
-                            "Collaborated closely with cross-functional team members (engineering, QA, product) in a supportive team environment, contributing to code reviews, technical design discussions, and shared engineering standards.",
-                            "Delivered features for a live, high-scale consumer app with a large, active user base, balancing rapid iteration with code quality and maintainability."
-                        ]
+                        "es":"Senior Android Engineer",
+                        "en":"Senior Android Engineer"
                     },
                     "url":"https://underdogfantasy.com/"
                 },
@@ -618,8 +602,8 @@
                     "from":[12,2024],
                     "to":[6,2025],
                     "description":{
-                        "es":["Miembro del customer squad de Account Management & Servicing como Ingeniero de Software Android (MVVM / Clean Architecture / Jetpack Compose) para el proyecto MiBanco 4.0 para Banco Popular de Puerto Rico"],
-                        "en":["Member of the Account Management & Servicing customer squad as an Android Software Engineer (MVVM / Clean Architecture / Jetpack Compose) for the MiBanco 4.0 project for Banco Popular of Puerto Rico."]
+                        "es":"Miembro del customer squad de Account Management & Servicing como Ingeniero de Software Android (MVVM / Clean Architecture / Jetpack Compose) para el proyecto MiBanco 4.0 para Banco Popular de Puerto Rico",
+                        "en":"Member of the Account Management & Servicing customer squad as an Android Software Engineer (MVVM / Clean Architecture / Jetpack Compose) for the MiBanco 4.0 project for Banco Popular of Puerto Rico."
                     },
                     "url":"https://www.perficient.com/"
                 },
@@ -631,8 +615,8 @@
                     "from":[5,2018],
                     "to":[9,2019],
                     "description":{
-                        "es":["Comencé trabajando como desarrollador Android en Kotlin manteniendo la aplicación de investigación de mercado de la empresa. Fui responsable de implementar funcionalidades que le permiten a los usuarios grabar video, enviar formularios dinámicos y subir archivos entre otras interacciones. La aplicación fue usada internamente por empleados de la compañía para realizar misiones que incluyen encuestas y tareas de \"mystery shopper\" entre otras. Adicionalmente participé del desarrollo del backend usando Node.js, Docker y el framework Moleculer para crear soluciones robustas y escalables."],
-                        "en":["Started working as a Kotlin Android Developer developing and maintaining the company's market research application. I was responsible for implementing features that enabled users to capture video, submit dynamic forms, and upload files among other interactions. The app was used internally by employees of the company in order to accomplish missions including surveys and mystery shopper tasks. Additionally, I contributed to the backend infrastructure using Node.js, Docker and the Moleculer framework to create robust and scalable solutions."]
+                        "es":"Comencé trabajando como desarrollador Android en Kotlin manteniendo la aplicación de investigación de mercado de la empresa. Fui responsable de implementar funcionalidades que le permiten a los usuarios grabar video, enviar formularios dinámicos y subir archivos entre otras interacciones. La aplicación fue usada internamente por empleados de la compañía para realizar misiones que incluyen encuestas y tareas de \"mystery shopper\" entre otras. Adicionalmente participé del desarrollo del backend usando Node.js, Docker y el framework Moleculer para crear soluciones robustas y escalables.",
+                        "en":"Started working as a Kotlin Android Developer developing and maintaining the company's market research application. I was responsible for implementing features that enabled users to capture video, submit dynamic forms, and upload files among other interactions. The app was used internally by employees of the company in order to accomplish missions including surveys and mystery shopper tasks. Additionally, I contributed to the backend infrastructure using Node.js, Docker and the Moleculer framework to create robust and scalable solutions."
                     },
                     "url":"https://home.ciom.tech"
                 },
@@ -644,8 +628,8 @@
                     "from":[1,2015],
                     "to":[4,2020],
                     "description":{
-                        "es":["Comencé desde cero desarrollando tanto el backend como la aplicación Android para este sitio de noticias de Android. El backend fue hecho en Node/Express/Mongo que lee de la base de datos MySQL de Wordpress directamente y entrega la información requerida a la aplicación Android la que renderiza de manera nativa los diferentes componentes que constituyen un artículo, desde podcasts en audio, a videos de YouTube, widget de reseñas, encuestas, etc."],
-                        "en":["Started from scratch working on both the backend and Android application for this Android related news site. The backend done in Node/Express/Mongo reads from the MySQL Wordpress database directly and delivers the information required by the Android application which renders natively all the different components used to build an article, from audio podcasts, to YouTube videos, review widgets, polls, etc."]
+                        "es":"Comencé desde cero desarrollando tanto el backend como la aplicación Android para este sitio de noticias de Android. El backend fue hecho en Node/Express/Mongo que lee de la base de datos MySQL de Wordpress directamente y entrega la información requerida a la aplicación Android la que renderiza de manera nativa los diferentes componentes que constituyen un artículo, desde podcasts en audio, a videos de YouTube, widget de reseñas, encuestas, etc.",
+                        "en":"Started from scratch working on both the backend and Android application for this Android related news site. The backend done in Node/Express/Mongo reads from the MySQL Wordpress database directly and delivers the information required by the Android application which renders natively all the different components used to build an article, from audio podcasts, to YouTube videos, review widgets, polls, etc."
                     },
                     "url":"https://www.androidauthority.com/"
                 },
@@ -657,10 +641,23 @@
                     "from":[9,2013],
                     "to":[12,2013],
                     "description":{
-                        "es":["Parte del equipo de desarrollo de la aplicación nativa para Android de la plataforma multimedia de Fansworld TV."],
-                        "en":["Part of the development team for the native Android application for the Fansworld TV multimedia platform."]
+                        "es":"Parte del equipo de desarrollo de la aplicación nativa para Android de la plataforma multimedia de Fansworld TV.",
+                        "en":"Part of the development team for the native Android application for the Fansworld TV multimedia platform."
                     },
                     "url":"http://fwtv.tv"
+                },
+                {
+                    "title":{
+                        "es":"Independiente",
+                        "en":"Freelancer"
+                    },
+                    "from":[6,2012],
+                    "to":null,
+                    "description":{
+                        "es":"Desarrollador Android y de backend independiente",
+                        "en":"Android and backend freelance developer"
+                    },
+                    "url":null
                 },
                 {
                     "title":{
@@ -670,8 +667,8 @@
                     "from":[2,2012],
                     "to":[6,2012],
                     "description":{
-                        "es":["Desarrollador principal desde el inicio de Mezcladitos, comunicación permanente con el equipo de diseño para su aplicación al juego y soporte a colegas sobre la plataforma."],
-                        "en":["Main developer of Wordcrack, permanent communication with the design team for its application to the game and platform support to coworkers."]
+                        "es":"Desarrollador principal desde el inicio de Mezcladitos, comunicación permanente con el equipo de diseño para su aplicación al juego y soporte a colegas sobre la plataforma.",
+                        "en":"Main developer of Wordcrack, permanent communication with the design team for its application to the game and platform support to coworkers."
                     },
                     "url":"http://www.etermax.com"
                 },
@@ -683,8 +680,8 @@
                     "from":[4,2010],
                     "to":[2,2012],
                     "description":{
-                        "es":["Desarrollo de aplicaciones de administración de contenido web y Android en Java, PHP y MySQL. Desarrollo de videojuegos para Android. Administración de sistemas (devops)"],
-                        "en":["Web and Android content management applications development in Java, PHP and MySQL. Android videogame development. Devops."]
+                        "es":"Desarrollo de aplicaciones de administración de contenido web y Android en Java, PHP y MySQL. Desarrollo de videojuegos para Android. Administración de sistemas (devops)",
+                        "en":"Web and Android content management applications development in Java, PHP and MySQL. Android videogame development. Devops."
                     },
                     "url":null
                 },
@@ -696,8 +693,8 @@
                     "from":[8,2009],
                     "to":[4,2010],
                     "description":{
-                        "es":["Desarrollo de interfaces web para acceso a sistemas de telefónia IP y administración de cuentas de celulares. Desarrollo de aplicación de almacenamiento de claves y usuarios. Desarrollo de agregados a sistemas de monitoreo para Asterisk sobre Nagios y Remstats."],
-                        "en":["VOIP web interface access and cellphone user accounts management development. Nagios and Remstats Asterisk monitoring plugins."]
+                        "es":"Desarrollo de interfaces web para acceso a sistemas de telefónia IP y administración de cuentas de celulares. Desarrollo de aplicación de almacenamiento de claves y usuarios. Desarrollo de agregados a sistemas de monitoreo para Asterisk sobre Nagios y Remstats.",
+                        "en":"VOIP web interface access and cellphone user accounts management development. Nagios and Remstats Asterisk monitoring plugins."
                     },
                     "url":"http://www.pert.com.ar"
                 },
@@ -709,8 +706,8 @@
                     "from":[2,2006],
                     "to":[8,2009],
                     "description":{
-                        "es":["Implementación de SVN, Trac y MediaWiki para el área de producción de la empresa. Desarrollo y administración de la base de datos del RENATRE (Registro Nacional de Trabajadores Rurales y Empleadores) y otros proyectos más chicos para la empresa en sí, PBA (Policía de Buenos Aires) y La Caja de Ahorro usando GNU/Linux, Windows 2003 Server, PostgreSQL, PHP."],
-                        "en":["SVN, Trac and MediaWiki implementation for the development area of the company. Administration and development of the RENATRE database and other smaller projects for other clients and the company itself. Worked with GNU/Linux, PostgreSQL and PHP mainly."]
+                        "es":"Implementación de SVN, Trac y MediaWiki para el área de producción de la empresa. Desarrollo y administración de la base de datos del RENATRE (Registro Nacional de Trabajadores Rurales y Empleadores) y otros proyectos más chicos para la empresa en sí, PBA (Policía de Buenos Aires) y La Caja de Ahorro usando GNU/Linux, Windows 2003 Server, PostgreSQL, PHP.",
+                        "en":"SVN, Trac and MediaWiki implementation for the development area of the company. Administration and development of the RENATRE database and other smaller projects for other clients and the company itself. Worked with GNU/Linux, PostgreSQL and PHP mainly."
                     },
                     "url":null
                 },
@@ -722,8 +719,8 @@
                     "from":[12,2004],
                     "to":[2,2006],
                     "description":{
-                        "es":["Desarrollo de sistemas de administración de contenido en PHP y MySQL. Instalación y administración de estaciones de trabajo y servidores en GNU/Linux para la empresa y clientes. Migración completa a software libre del área de administración y de desarrollo de la empresa. Liderazgo de equipo, desarrollador, analista de sistemas y administrador de sistemas."],
-                        "en":["Web content management applications development in PHP and MySQL. Installation and administration of GNU/Linux servers and workstations for the company and clients. Total migration to free and libre software of development and administration department of the company. Team leader, developer, system analyst and devops."]
+                        "es":"Desarrollo de sistemas de administración de contenido en PHP y MySQL. Instalación y administración de estaciones de trabajo y servidores en GNU/Linux para la empresa y clientes. Migración completa a software libre del área de administración y de desarrollo de la empresa. Liderazgo de equipo, desarrollador, analista de sistemas y administrador de sistemas.",
+                        "en":"Web content management applications development in PHP and MySQL. Installation and administration of GNU/Linux servers and workstations for the company and clients. Total migration to free and libre software of development and administration department of the company. Team leader, developer, system analyst and devops."
                     },
                     "url":"http://webmind.com.ar/"
                 }
@@ -735,20 +732,6 @@
                 "en":"Selected technical skills"
             },
             "content":[
-                {
-                    "title":{
-                        "es":"IA",
-                        "en":"AI"
-                    },
-                    "content":[
-                        "OpenClaw",
-                        "Claude Code",
-                        "Cursor",
-                        "Firebender",
-                        "Microsoft Copilot",
-                        "Amazon Kiro/Q"
-                    ]
-                },
                 {
                     "title":{
                         "es":"Android",

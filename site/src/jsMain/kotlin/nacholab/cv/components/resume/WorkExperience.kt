@@ -115,21 +115,21 @@ fun WorkExperience(
                 }
             }
 
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(left = 22.px, right = 22.px, bottom = 20.px)
-            ){
-                Image(
-                    src = "$APP_ASSETS/listBullet.png",
+            job.description[language]?.forEach {
+                Row(
                     modifier = Modifier
-                        .margin(top = 4.px)
-                        .width(9.px)
-                        .height(10.px)
-                        .tint(CVTheme.colors.secondaryHueRotationFromSepia)
-                )
+                        .fillMaxWidth()
+                        .padding(left = 22.px, right = 22.px, bottom = 20.px)
+                ){
+                    Image(
+                        src = "$APP_ASSETS/listBullet.png",
+                        modifier = Modifier
+                            .margin(top = 4.px)
+                            .width(9.px)
+                            .height(10.px)
+                            .tint(CVTheme.colors.secondaryHueRotationFromSepia)
+                    )
 
-                job.description[language]?.let {
                     SpanText(
                         text = it,
                         modifier = Modifier
