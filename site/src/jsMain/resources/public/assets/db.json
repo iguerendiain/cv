@@ -564,7 +564,12 @@
                     },
                     "from":[2,2026],
                     "description":{
-                        "es":["Senior Software Engineer"],
+                        "es":[
+                            "Diagnostiqué y resolví defectos en una aplicación Android de gran escala que abarcaba tanto código legado como moderno, navegando un sistema con miles de reglas de negocio interdependientes y sin documentar para entregar soluciones confiables bajo ciclos de release ajustados.• Gestioné y ejecuté cherry-picks de correcciones de errores y funcionalidades a través de múltiples ramas de release, asegurando un despliegue consistente y estable de los cambios entre versiones concurrentes de una aplicación Android de gran escala.",
+                            "Redacté documentación técnica interna para capturar el conocimiento tribal en torno a lógica de negocio sin documentar, mejorando la mantenibilidad y reduciendo la fricción de onboarding para el equipo.",
+                            "Brindé mentoría informal y soporte para la resolución de problemas a mis compañeros, ayudando a destrabar a colegas que trabajaban en partes desconocidas o poco documentadas del código.",
+                            "Trabajé de forma efectiva con documentación mínima a nivel de sistema y poco soporte del equipo, desarrollando fuertes habilidades independientes de debugging e ingeniería inversa para mantener una aplicación crítica para el negocio."
+                        ],
                         "en":[
                             "Diagnosed and resolved defects across a large-scale Android application spanning legacy and modern codebases, navigating a system with thousands of interdependent, undocumented business rules to deliver reliable fixes under tight release cycles.• Managed and executed cherry-picks of bug fixes and features across multiple release branches, ensuring consistent, stable rollout of changes across concurrent versions of a large-scale Android application.",
                             "Authored internal technical documentation to capture tribal knowledge around undocumented business logic, improving maintainability and reducing onboarding friction for the team",
@@ -581,7 +586,13 @@
                     },
                     "from":[10,2019],
                     "description":{
-                        "es":["Como el único desarrollador de la aplicación de tarjetas de felicitaciones, desarrollo, distribuyo y mantengo la aplicación de principio a fin. Manejo todos los aspectos del proceso de producción, incluyendo la implementación del diseño, distribución para testing (vía Firebase) y administración de Google Play. La aplicación permite a los usuarios crear páginas personalizadas con una gran variedad de medios, incluyendo videos, imágenes, audio y más. Esta aplicación es pública y ha sido descargada por decenas de miles de usuarios."],
+                        "es":[
+                            "Me desempeñé como el único desarrollador Android a cargo de diseñar y construir desde cero la versión Android de CardSnacks, una aplicación de tarjetas de saludo y gift cards ya establecida en iOS — arquitecturando e implementando la aplicación completa para una nueva plataforma a partir de una visión de producto existente.",
+                            "Estuve a cargo de todo el ciclo de desarrollo Android de punta a punta: implementación de UI/UX, desarrollo de funcionalidades, QA y gestión de releases, trabajando directamente con el dueño de la aplicación como único recurso técnico en la plataforma.",
+                            "Construí un motor de personalización multimedia que permite a los usuarios crear tarjetas de saludo personalizadas con fotos, video, grabaciones de voz, stickers y música.",
+                            "Gestioné el beta testing y los rollouts escalonados a través de Firebase App Distribution, y estuve a cargo del release a producción y el mantenimiento continuo mediante Google Play Console.",
+                            "Lancé y mantengo una aplicación en producción, disponible públicamente, con una calificación de 4.8★ (más de 15 mil reseñas) y más de 100.000 descargas en Google Play."
+                        ],
                         "en":[
                             "Engaged as the sole Android developer to design and build the Android version of CardSnacks, an established iOS greeting card and gift card app, from the ground up — architecting and implementing the full application for a new platform based on an existing product vision.",
                             "Owned the complete Android development lifecycle end-to-end: UI/UX implementation, feature development, QA, and release management, working directly with the app owner as the sole technical resource on the platform.",
@@ -600,7 +611,12 @@
                     "from":[7,2025],
                     "to":[1,2026],
                     "description":{
-                        "es":["Senior Android Engineer"],
+                        "es":[
+                            "Contribuí como Desarrollador Android Senior en una plataforma de fantasy deportivo y predicciones de alto tráfico, desarrollando nuevas funcionalidades junto a un equipo de ingeniería experimentado y colaborativo, reconocido por sus sólidas prácticas de ingeniería.",
+                            "Diseñé e implementé nuevas funcionalidades de cara al usuario en las áreas centrales del producto, incluyendo drafting en tiempo real, concursos de tipo pick'em y estadísticas de jugadores, apoyándome en documentación técnica clara y patrones arquitectónicos ya establecidos.",
+                            "Colaboré estrechamente con miembros de equipos multifuncionales (ingeniería, QA, producto) en un ambiente de trabajo colaborativo, participando en code reviews, discusiones de diseño técnico y estándares de ingeniería compartidos.",
+                            "Entregué funcionalidades para una aplicación de consumo masivo en producción, de alta escala y con una base de usuarios grande y activa, equilibrando iteración rápida con calidad de código y mantenibilidad."
+                        ],
                         "en":[
                             "Contributed as a Senior Android Developer on a high-traffic sports fantasy and prediction platform, developing new features alongside an experienced, collaborative engineering team known for strong engineering practices.",
                             "Designed and implemented new user-facing features across core product areas, including real-time drafting, pick'em contests, and player statistics, leveraging clear technical documentation and established architectural patterns.",
