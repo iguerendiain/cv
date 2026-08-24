@@ -33,11 +33,13 @@ fun buildWorkExperienceContent(workData: WorkExperienceData, language: String): 
     workData.title[language]?.let { stackItems.add(pdfSectionTitle(it)) }
 
     workData.content.forEach { job ->
-        job.title[language]?.let { stackItems.add(jobTitleContent(job, it, language)) }
+        val jobItems = mutableListOf<dynamic>()
+
+        job.title[language]?.let { jobItems.add(jobTitleContent(job, it, language)) }
 
         val paragraphs = job.description[language].orEmpty()
         if (paragraphs.isNotEmpty()) {
-            stackItems.add(
+            jobItems.add(
                 json(
                     "ul" to paragraphs.map { paragraph ->
                         json(
@@ -46,11 +48,19 @@ fun buildWorkExperienceContent(workData: WorkExperienceData, language: String): 
                             "fontSize" to PdfTheme.DEFAULT_FONT_SIZE,
                             "color" to PdfTheme.DEFAULT_TEXT_COLOR
                         )
-                    }.toTypedArray(),
-                    "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING)
+                    }.toTypedArray()
                 )
             )
         }
+
+        // Keep each job entry (title + bullets) together, never split across a page break.
+        stackItems.add(
+            json(
+                "stack" to jobItems.toTypedArray(),
+                "unbreakable" to true,
+                "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING)
+            )
+        )
     }
 
     return json("stack" to stackItems.toTypedArray(), "margin" to arrayOf(0.0, 0.0, 0.0, PdfTheme.SECTION_SPACING))
