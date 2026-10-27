@@ -207,18 +207,6 @@
                             "es":"Servidor propio",
                             "en":"Self hosted"
                         }
-                    },
-                    {
-                        "title":{
-                            "es":"Open PDF",
-                            "en":"Open PDF"
-                        }
-                    },
-                    {
-                        "title":{
-                            "es":"Ktor client",
-                            "en":"Ktor client"
-                        }
                     }
                 ],
                 "urls":[
@@ -229,14 +217,6 @@
                             "en":"Github"
                         },
                         "url":"https://github.com/iguerendiain/cv"
-                    },
-                    {
-                        "icon":"assets/github.png",
-                        "title":{
-                            "es":"PDF Builder",
-                            "en":"PDF Builder"
-                        },
-                        "url":"https://github.com/iguerendiain/cv_pdfbuilder"
                     },
                     {
                         "icon":"assets/www.png",
@@ -757,7 +737,6 @@
                         "en":"AI"
                     },
                     "content":[
-                        "OpenClaw",
                         "Claude Code",
                         "Cursor",
                         "Firebender",
